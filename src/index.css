@@ -16,3 +16,6 @@ svg{
   max-width: 1200px;
   margin: auto;
 }
+section {
+  scroll-margin-top: 80px;
+}
