@@ -1,40 +1,41 @@
-import React from "react";
-import "./Footer.css";
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import "./Footer.css";
 
-const Footer = () => {
+export default function Footer() {
   return (
     <footer className="footer">
 
       <div className="footer-container">
 
-        {/* LEFT LOGO */}
+        {/* Logo */}
         <div className="footer-logo">
           {"< >"} Abishek.<span>S</span>
         </div>
 
+        {/* Social Icons */}
+        <div className="footer-icons">
 
-        {/* CENTER SECTION */}
-        <div className="footer-center">
+          <a href="https://github.com/ABISHEK-FED" target="_blank" rel="noreferrer">
+            <FaGithub className="icon github"/>
+          </a>
 
-         
+          <a href= "https://www.linkedin.com/in/abishek-sachithanandham-5bb711390"target="_blank" rel="noreferrer">
+            <FaLinkedinIn className="icon linkedin"/>
+          </a>
 
-          <p className="copyright">
-            © 2026 Abishek. All rights reserved.
-          </p>
+          <a href="https://instagram.com/sg_abishek_official" target="_blank" rel="noreferrer">
+            <FaInstagram className="icon instagram"/>
+          </a>
 
         </div>
 
-
-        {/* RIGHT TEXT */}
-        <div className="footer-right">
-          Made with 💙 and passion <span>Abishek Sachithanandham</span>
+        {/* Copyright */}
+        <div className="footer-copy">
+          © 2026 Abishek. All rights reserved.
         </div>
 
       </div>
 
     </footer>
   );
-};
-
-export default Footer;
+}

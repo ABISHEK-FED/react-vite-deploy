@@ -40,11 +40,11 @@ export default function Navbar() {
       <div className="nav-icons">
 
         <a href="https://github.com/ABISHEK-FED" target="_blank" rel="noopener noreferrer">
-          <FaGithub />
+          <FaGithub className="icon github" />
         </a>
 
         <a href="https://www.linkedin.com/in/abishek-sachithanandham-5bb711390" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin />
+          <FaLinkedin className="icon linkedin" />
         </a>
 
         <Link to="contact" smooth duration={500} offset={offsetValue}>

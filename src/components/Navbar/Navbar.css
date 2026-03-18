@@ -68,6 +68,15 @@ section {
   cursor: pointer;
   transition: 0.3s;
 }
+.github:hover{
+    color:#0077b5;
+  box-shadow:0 0 15px #0077b5;
+}
+
+.linkedin:hover{
+  color:#0077b5;
+  box-shadow:0 0 15px #0077b5;
+}
 
 .nav-icons svg:hover {
   color: #00e5ff;
