@@ -95,6 +95,20 @@ section {
   font-size: 24px;
   cursor: pointer;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  width: 100%;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
 
 /* MOBILE */
 @media (max-width: 900px) {
