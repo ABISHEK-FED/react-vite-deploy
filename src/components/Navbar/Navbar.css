@@ -100,7 +100,10 @@ section {
 @media (max-width: 900px) {
 
   .navbar {
-    padding: 0 20px;
+    padding: 10px 5%;
+  }
+  .logo{
+    font-size: 18px;
   }
 
   .nav-links {
