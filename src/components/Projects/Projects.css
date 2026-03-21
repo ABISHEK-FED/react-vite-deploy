@@ -149,3 +149,204 @@ transition: 0.3s;
   }
 
 }
+ .live-arrow{
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#2c3e50;
+  color: white;
+  font-size:16px;
+  transition:0.4s;
+  position:relative;
+  overflow:hidden;
+}
+
+/* glowing circle */
+
+.live-arrow::before{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  background:radial-gradient(circle,white,transparent);
+  opacity:0;
+  transition:0.4s;
+}
+
+/* hover animation */
+
+.live-arrow:hover{
+  transform:rotate(45deg) scale(1.2);
+  background:#00e5ff;
+  color:white;
+  box-shadow:0 0 #00e5ff;
+} 
+
+ .live-arrow:hover::before{
+  opacity:0.4;
+} 
+
+.github-btn{
+width:45px;
+height:45px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:18px;
+text-decoration:none;
+transition:0.4s;
+position:relative;
+overflow:hidden;
+margin-left: 80px;
+background:#1e2d42;
+color:white;
+}
+
+/* GITHUB BUTTON */
+.github-btn:hover{
+  color:#0077b5;
+  box-shadow:0 0 15px #0077b5;
+transform:scale(1.15);
+}
+
+/* GLOW EFFECT */
+
+.github-btn::before{
+content:"";
+position:absolute;
+width:100%;
+height:100%;
+background:radial-gradient(circle,transparent);
+opacity:0;
+transition:0.4s;
+}
+
+.github-btn:hover::before{
+opacity:1;
+}
+ .live-arrows{
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#2c3e50;
+  color: white;
+  font-size:16px;
+  transition:0.4s;
+  position:relative;
+  overflow:hidden;
+}
+
+/* glowing circle */
+
+.live-arrows::before{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  background:radial-gradient(circle,transparent);
+  opacity:0;
+  transition:0.4s;
+}
+
+/* hover animation */
+
+.live-arrows:hover{
+  transform:rotate(45deg) scale(1.2);
+  background:#00e5ff;
+  color:white;
+  box-shadow:0 0 #00e5ff;
+} 
+
+ .live-arrows:hover::before{
+  opacity:0.4;
+} 
+.github-btns{
+width:45px;
+height:45px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:18px;
+text-decoration:none;
+transition:0.4s;
+position:relative;
+overflow:hidden;
+margin-left: 110px;
+background:#1e2d42;
+color:white;
+}
+
+/* GITHUB BUTTON */
+.github-btns:hover{
+  color:#0077b5;
+  box-shadow:0 0 15px #0077b5;
+transform:scale(1.15);
+}
+
+
+/* GLOW EFFECT */
+
+.github-btns::before{
+content:"";
+position:absolute;
+width:100%;
+height:100%;
+background:radial-gradient(circle,transparent);
+opacity:0;
+transition:0.4s;
+}
+
+.github-btns:hover::before{
+opacity:1;
+}
+ .live-arr{
+  width:65px;
+  height:40px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#2c3e50;
+  color: white;
+  font-size:16px;
+  transition:0.4s;
+  margin-left: 20px;
+  position:relative;
+  overflow:hidden;
+}
+
+/* glowing circle */
+
+.live-arr::before{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  background:radial-gradient(circle,white,transparent);
+  opacity:0;
+  transition:0.4s;
+}
+
+/* hover animation */
+
+.live-arr:hover{
+  transform:rotate(25deg) scale(1.2);
+  background:#00e5ff;
+  color:white;
+  box-shadow:0 0 #00e5ff;
+} 
+
+ .live-arr:hover::before{
+  opacity:0.4;
+} 

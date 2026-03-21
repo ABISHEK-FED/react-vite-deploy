@@ -3,7 +3,8 @@ import "./Projects.css";
 import weatherImg from '../../assets/weather.png'
 import meachine from '../../assets/meachine.webp'
 import portfolio from '../../assets/portfolio.png'
-import { LayoutGrid, ShoppingCart, MessageSquare, ArrowUpRight } from "lucide-react";
+import { LayoutGrid, ShoppingCart, MessageSquare,} from "lucide-react";
+import { FaArrowRight, FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -24,7 +25,7 @@ const Projects = () => {
         <div className="project-card">
          <img src={meachine} alt="Weather App" className="project-img"/>
           <div className="project-content">
-            <h3>Advanced Tecniques for Digital image forgery Detection <ArrowUpRight size={20} /></h3>
+            <h3>Advanced Tecniques for Digital image forgery Detection <a href="" target="_blank" rel="noopener noreferrer" className="live-arr"><FaArrowRight/></a></h3>
             <p>
               A comprehensive financial dashboard with real-time analytics and
               data visualization.
@@ -42,7 +43,14 @@ const Projects = () => {
         <div className="project-card">       
         <img src={weatherImg} alt="Weather App" className="project-img"/>
           <div className="project-content">
-            <h3>Weather API<ArrowUpRight size={20} /></h3>
+            <h3>Weather API
+                <a 
+              href="https://github.com/ABISHEK-FED/openweather"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="github-btns">
+              <FaGithub/></a>
+              <a href="https://abishek-fed.github.io/openweather/"target="_blank" rel="noopener noreferrer" className="live-arrow"><FaArrowRight/></a></h3>
             <p>
              Weather app using public API
             </p>
@@ -54,13 +62,19 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
         {/* Project 3 */}
         <div className="project-card">
         
          <img src={portfolio} alt="Weather App" className="project-img"/>
           <div className="project-content">
-            <h3>Portfolio Website <ArrowUpRight size={20} /></h3>
+            <h3>Portfolio Website 
+             <a 
+              href="https://github.com/ABISHEK-FED/react-vite-deploy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="github-btn">
+              <FaGithub/></a>   
+            <a href="https://react-vite-deploy-abisheksgs-projects.vercel.app/" target="_blank" rel="noopener noreferrer" className="live-arrows"><FaArrowRight/></a></h3>
             <p>
              Modern Portfolio Design
             </p>

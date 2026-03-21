@@ -22,6 +22,7 @@ section {
   position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
   z-index: 1000;
 }
 
@@ -120,7 +121,7 @@ section {
 }
 
 /* MOBILE */
-@media (max-width: 900px) {
+@media (max-width: 600px) {
 
   .navbar {
     padding: 10px 5%;
